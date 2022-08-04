@@ -1,0 +1,5 @@
+1704c3a2537f4dde859c2ab25688310a Apy-Key
+
+example:
+
+https://newsapi.org/v2/everything?q=bitcoin&apiKey=1704c3a2537f4dde859c2ab25688310a
