@@ -22,9 +22,24 @@ function App() {
   },[share])
 
   useEffect(()=>{
-   
-    const newStateArticles = articles.slice(initial,initial+10)
-    setArticlesSelect(newStateArticles)
+    if(!!articles){
+      setArticlesSelect([
+      articles[0],
+      articles[1],
+      articles[2],
+      articles[3],
+      articles[4],
+      articles[5],
+      articles[6],
+      articles[7],
+      articles[8],
+      articles[9],
+    ])
+    }else{
+      console.log("IGnore")
+    }
+    
+    
      console.log("new articles",articlesSelect)
   },[articles,initial])
 
