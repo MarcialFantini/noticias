@@ -22,7 +22,7 @@ function App() {
   },[share])
 
   useEffect(()=>{
-    if(!!articles){
+    if(articles.length > 0){
       setArticlesSelect([
       articles[0],
       articles[1],
